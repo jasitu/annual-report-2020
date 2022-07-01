@@ -133,6 +133,11 @@ body.section-landing-page ul.tabs-primary {
     display: none;
 }
 
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; // hide images
+    content:url(img/mila-box1.jpg) url(img/natalie-box1.jpg) url(img3.gif) url(img4.jpg);   // load images
+ }
+
 .mila .caption,
 .tamika .caption,
 .roann .caption,
