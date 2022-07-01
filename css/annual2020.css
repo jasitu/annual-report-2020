@@ -155,23 +155,6 @@ body.section-landing-page ul.tabs-primary {
     }
 }
 
-body::after{
-    position: absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    z-index:-1; // hide images
-    content: url(/annual-report-2020/img/mila-box1.jpg) 
-    url(/annual-report-2020/img/natalie-box1.jpg)
-    url(/annual-report-2020/img/tamika-box1.jpg)
-    url(/annual-report-2020/img/roann-box.jpg)
-    url(/annual-report-2020/img/video-box3.jpg)
-    url(/annual-report-2020/img/ashley-box.jpg)
-    url(/annual-report-2020/img/tiago-alisha-box1.jpg)
-    url(/annual-report-2020/img/naina-sunaina-box1.jpg) 
-    url(/annual-report-2020/img/susan-box1.jpg);  // load images
- }
-
 /* hover images thumbnails */
 
 .img-block.mila:hover img {
@@ -813,3 +796,20 @@ li:before {
 .fa-linkedin-square:before {
     content: "\f08c";
 }
+
+body::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index:-1; // hide images
+    content: url(/annual-report-2020/img/mila-box1.jpg)
+    url(/annual-report-2020/img/natalie-box1.jpg)
+    url(/annual-report-2020/img/tamika-box1.jpg)
+    url(/annual-report-2020/img/roann-box.jpg)
+    url(/annual-report-2020/img/video-box3.jpg)
+    url(/annual-report-2020/img/ashley-box.jpg)
+    url(/annual-report-2020/img/tiago-alisha-box1.jpg)
+    url(/annual-report-2020/img/naina-sunaina-box1.jpg) 
+    url(/annual-report-2020/img/susan-box1.jpg);  // load images
+ }
