@@ -135,7 +135,7 @@ body.section-landing-page ul.tabs-primary {
 
 body::after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1; // hide images
-    content:url(img/mila-box1.jpg) url(img/natalie-box1.jpg) url(img3.gif) url(img4.jpg);   // load images
+    content:url(img/mila-box1.jpg) url(img/natalie-box1.jpg) url(img/tamika-box1.jpg) url(img/roann-box.jpg) url(img/video-box3.jpg) url(img/ashley-box.jpg) url(img/tiago-alisha-box1.jpg) url(img/naina-sunaina-box1.jpg)  url(img/susan-box1.jpg)  // load images
  }
 
 .mila .caption,
