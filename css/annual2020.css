@@ -621,7 +621,7 @@ li:before {
 
 .col-2 .text {
     position: absolute;
-    top: 14%;
+    top: 24%;
     left: 12%;
     max-width: 286px;
 }
@@ -636,6 +636,21 @@ li:before {
     margin-bottom: 25px;
 }
 
+@media (max-width: 1200px) {
+    .col-2 .text {
+        top: 27%;
+        left: 22%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .col-2 .text {
+        top: 25%;
+        left: 15%;
+    }
+}
+
+
 @media (max-width: 750px) {
     .vector.twocol, .laptop-vector .featured-img {
         flex-wrap: wrap;
@@ -644,6 +659,20 @@ li:before {
     .col-2 .text {
         top: 28%;
         left: 26%;
+    }
+}
+
+@media (max-width: 600px) {
+    .col-2 .text {
+        top: 25%;
+        left: 20%;
+    }
+}
+
+@media (max-width: 450px) {
+    .col-2 .text {
+        top: 16%;
+        left: 11%;
     }
 }
 
