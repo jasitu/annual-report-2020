@@ -150,39 +150,39 @@ body.section-landing-page ul.tabs-primary {
 /* hover images thumbnails */
 
 .img-block.mila:hover img {
-    content: url('/img/mila-box1.jpg');
+    content: url('img/mila-box1.jpg');
 }
 
 .img-block.natalie:hover img {
-    content: url('/img/natalie-box1.jpg');
+    content: url('img/natalie-box1.jpg');
 }
 
 .img-block.tamika:hover img {
-    content: url('/img/tamika-box1.jpg');
+    content: url('img/tamika-box1.jpg');
 }
 
 .img-block.roann:hover img {
-    content: url('/img/roann-box.jpg');
+    content: url('img/roann-box.jpg');
 }
 
 .img-block.video:hover img {
-    content: url('/img/video-box3.jpg');
+    content: url('img/video-box3.jpg');
 }
 
 .img-block.ashley:hover img {
-    content: url('/img/ashley-box.jpg');
+    content: url('img/ashley-box.jpg');
 }
 
 .img-block.tiago-alisha:hover img {
-    content: url('/img/tiago-alisha-box1.jpg');
+    content: url('img/tiago-alisha-box1.jpg');
 }
 
 .img-block.naina-sunaina:hover img {
-    content: url('/img/naina-sunaina-box1.jpg');
+    content: url('img/naina-sunaina-box1.jpg');
 }
 
 .img-block.susan:hover img {
-    content: url('/img/susan-box1.jpg');
+    content: url('img/susan-box1.jpg');
 }
 /* content */
 
@@ -195,7 +195,7 @@ body.section-landing-page ul.tabs-primary {
 }
 
 .title-arrow {
-    background: url('/img/teal_arrow.png');
+    background: url('img/teal_arrow.png');
     background-repeat: no-repeat;
     background-size: 620px 110px;
 }
@@ -527,7 +527,7 @@ li:before {
 }
 
 .title-arrow-cta {
-    background: url(/img/teal_arrow.png);
+    background: url(img/teal_arrow.png);
     background-repeat: no-repeat;
     background-size: 100% 70%;
     position: absolute;
