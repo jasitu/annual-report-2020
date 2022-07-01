@@ -2,6 +2,17 @@ body {
     background-color: #373737;
 }
 
+.title {
+    text-align: center;
+    margin: 25px 0 !important;
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 32px;
+    }
+}
+
 .page-node-4452 #main {
     background: -webkit-linear-gradient(top, #00509A, #07B691);
     background: -moz-linear-gradient(top, #00509A, #07B691);
@@ -65,6 +76,10 @@ body {
 
 #block-block-307 a {
     left: 35%;
+}
+
+.container {
+    position: relative;
 }
 
 .not-logged-in a.header__logo {
@@ -497,7 +512,7 @@ li:before {
 
 .forward-cta {
     background: white;
-    padding: 25px 100px;
+    padding: 25px 60px;
     border-bottom: #14b790 5px solid;
     border-top: #14b790 5px solid;
     margin: 25px 0;
@@ -518,7 +533,7 @@ li:before {
     position: absolute;
     top: 80px;
     left: 0px;
-    padding-left: 90px;
+    padding-left: 50px;
 }
 
 .title-arrow-cta h1 {
@@ -655,7 +670,6 @@ li:before {
     }
 }
 
-
 @media (max-width: 500px) {
     .content-body {
         padding: 25px;
@@ -668,6 +682,7 @@ li:before {
     }
 
 }
+
 
 @media (max-width: 400px) {
     .forward-cta {
@@ -689,4 +704,56 @@ li:before {
         padding-left: 15px;
         background-size: 70% 70%;
     }
+}
+
+/* social icons */
+
+.share-nav .facebook a {
+    color: #4867aa;
+}
+
+.share-nav .twitter a {
+    color: #186de5;
+}
+
+.share-nav .linkedin a {
+    color: #0077B5;
+}
+
+.share-nav ul li a {
+    font-size: 35px;
+}
+
+.share-nav .print a, .share-nav .email a {
+    color: #646469;
+}
+
+.share-nav a:hover, a:focus {
+    color: #444;
+}
+
+.share-nav ul li {
+    display: inline-block;
+    margin-left: 8px;
+    background-image: none;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+ ul li {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.4;
+    list-style: none;
+    padding-left: 50px;
+    text-indent: -0.2em;
+    background-size: 5px auto;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.fa-linkedin-square:before {
+    content: "\f08c";
 }
