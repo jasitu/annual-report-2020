@@ -812,9 +812,4 @@ li:before {
     url('img/tiago-alisha-box1.jpg')
     url('img/naina-sunaina-box1.jpg') 
     url('img/susan-box1.jpg');  // load images
-    content: "fire";
- }
-
- .img-block::after {
-    content: "fire";
  }
